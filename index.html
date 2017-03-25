@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nature</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+ 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+ 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+ 	<link rel="stylesheet" type="text/css" href="css/animate.css">
+ 	<link rel="stylesheet" type="text/css" href="css/waypoints.css">
+ 	<script src = "js/jquery.waypoints.min.js" type="text/javascript"></script>
+ 	<script src = "js/waypoints.js" type="text/javascript"></script>
+</head>
+
+<body>
+     <header>
+           <div id="header-inner">
+             <a herf ="index.html" id = "logo"></a>
+                <nav>
+                    <a href="#" id = "menu-icon"></a>
+                      <ul>
+                         <li><a href="index.html" class="current">Home</a></li>
+                         <li><a href="#">About</a></li>
+                         <li><a href="#">Facilty</a></li>
+                         <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                     </ul>
+                </nav>
+           </div>
+     </header>
+
+<!--- Start Slider -->
+	<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+          <div class="slide-warp">
+              <section class ="slider">
+                <ul class="slider1">
+                  <li><img src = "img/nature1.jpg"></li>
+                  <li><img src = "img/nature2.jpg"></li>
+                  <li><img src = "img/nature3.jpg"></li>
+                  <li><img src = "img/nature4.jpg"></li>
+                  <li><img src = "img/nature5.jpg"></li>
+                  <li><img src = "img/nature6.jpg"></li>
+                  <li><img src = "img/nature7.jpeg"></li>
+                  <li><img src = "img/nature8.jpg"></li>
+                  <li><img src = "img/nature9.jpg"></li>
+                  <li><img src = "img/nature10.jpg"></li>
+                  <li><img src = "img/nature11.jpg"></li>
+                  <li><img src = "img/nature12.jpg"></li>
+                  <li><img src = "img/nature13.jpg"></li>
+                  <li><img src = "img/nature14.jpg"></li>
+                  <li><img src = "img/nature15.jpg"></li>
+                </ul>
+              </section>
+          </div>
+
+	<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+         </script>
+
+<!--- End Slider -->
+
+<div class="clearfix"></div>
+ <div id = "inner-wrapper">
+
+ <!---Start Waypoints Delayed Animation-->
+ <section class="staggered-animation-container">
+
+ <section class = "os-animation" data-os-animation = "fadeInLeftBig" data-os-animation-delay =".6s">
+
+     <section class="one-third">
+       <div class = "circle">
+     	  <td><i class="fa fa-laptop"></i></td>
+       </div>
+       <h3>Get Information</h3>
+        <p> First, we allow you to brainstorm your already extraordinary dream, with an informative and interactive tour guide.</p>
+     </section>
+</section> <!---End Animation-->
+
+<section class = "os-animation" data-os-animation = "fadeInDownBig" data-os-animation-delay =".6s">
+  <section class="one-third">
+     <div class = "circle">
+     	<td><i class="fa fa-comments"></i></td>
+     </div>
+     <h3>Connect with our Agents</h3>
+     <p>Then, we connect you with the top 2 agents; based on their hands on Experience & Certifications.</p>
+  </section>
+</section> <!---End Animation-->
+
+<section class = "os-animation" data-os-animation = "fadeInRightBig" data-os-animation-delay =".6s">
+  <section class="one-third">
+     <div class = "circle">
+     	<td><i class="fa fa-globe"></i></td>
+     </div>
+     <h3>Check Us Out-Free!</h3>
+     <p>Finally we let them compete for your dreams!</p>
+  </section>
+</section> <!---End Animation-->
+
+<div class="clearfix"></div>
+
+<section class = "os-animation" data-os-animation = "fadeInLeft" data-os-animation-delay =".3s">
+    <article>
+  	     <img src="img/bird2.jpg" class="circle-image">
+    </article>
+</section> <!---End Animation-->
+
+<section class = "os-animation" data-os-animation = "fadeInRight" data-os-animation-delay =".3s">
+     <aside>
+        <h3>Our Facility</h3>
+          <br>
+            <ul calss ="gym">
+   	           <li><h4>Unlimited wifi connection</h4></li>
+   	            <li><h4>memeber music request &amp; voting</h4></li>
+                <li><h4>open 24 hours/7 days a week</h4></li>
+                <li><h4>Cardio Machine Movie thetear</h4></li>
+           </ul>
+    </aside>
+</section> <!---End Animation-->
+
+<div class = "clearfix"></div>
+
+<section class = "os-animation" data-os-animation = "bounceInLeft" data-os-animation-delay =".3s">
+       <section class="one-third">
+          <h3>Vacation Travel</h3>
+          <img src="img/vacation.jpg" >
+           <p>No one provides expertise and resources better than Travel Leaders. Our travel consulting purchasing and management programs access the core of the industry </p>
+      </section>
+</section> <!---End Animation-->
+
+<section class = "os-animation" data-os-animation = "bounceInDown" data-os-animation-delay =".3s">
+
+      <section class="one-third">
+          <h3>Cruises</h3>
+          <img src="img/cruises.jpg">
+          <p>Looking for a cruise deal under $500? How about cruise specials under $1000? Huge savings can even be found on luxury cruises as well as specialty cruises</p>
+      </section>
+</section> <!---End Animation-->
+
+<section class = "os-animation" data-os-animation = "bounceInRight" data-os-animation-delay =".3s">
+   <section class="one-third">
+     <h3>Destinations</h3>
+     <img src="img/distinations.jpg">
+     <p>Nature provides everything that you could possibly want in a destination vacation. Value, choice, assurance and above all fun are just a few of the components included! </p>
+   </section>
+
+</section> <!---End Animation-->
+
+</div><!---End inner-warper-->
+
+<div class="clearfix"></div>
+
+<!---Here footer section start-->
+<section class = "os-animation" data-os-animation = "bounceInRight" data-os-animation-delay =".3s">
+<footer>
+  <div id="footer-inner">
+     <section class="one-third" id="footer-third">
+      <h3>contact</h3>
+      <p class="footercontact">Nature<br>
+       <b class="phone">555-555-5555</b><br><br>
+        5069 University Ave <br>
+        San diego,CA 92104</p>
+     </section>
+
+     <section class="one-third" id="footer-third">
+      <h3>Social</h3>
+      <br>
+           <ul class = "social">
+           <li><a href="https://www.facebook.com/www.w3newbie.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+           <li><a href="https://www.plus.google.com/+DrewRyan_w3/posts" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+           <li><a href="https://twitter.com/DrewOnCue" target="_blank"><i class="fa fa-twitter"></i></a></li>
+           <li><a href="https://www.youtube.com/user/drewoncue" target="_blank"><i class="fa fa-youtube"></i></a></li>
+          </ul>
+     </section>
+
+     <section class="one-third" id="footer-third-last">
+          <h3>Pages</h3>
+            <br>
+            <h5>
+            <a href="index.html">home</a>-
+     	    <a href="#">about</a>-
+     	    <a href="#">facility</a>-
+     	    <a href="#">pricing</a>-
+     	    <a href="#">contact</a>
+            </h5>
+         </section>
+      </div>
+     </footer> <!---End of the upper footer-->
+
+    <footer class="second">
+      <p>&copy; Nature,2017</p><!--- copy right-->
+     </footer>
+   </section> <!---End Animation-->
+
+<!---End Waypoints Delayed Animation-->
+</section>
+
+<br>
+</body>
+</html>
